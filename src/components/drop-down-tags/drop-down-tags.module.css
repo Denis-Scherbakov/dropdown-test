@@ -1,0 +1,19 @@
+.tag__wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.tag__name {
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tag__delete {
+  display: flex;
+  align-items: center;
+}
+
+.delete__icon {
+  display: flex;
+}

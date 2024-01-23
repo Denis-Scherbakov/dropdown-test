@@ -1,0 +1,41 @@
+/* variables */
+:global(:root) {
+  --border-primary: rgba(7, 0, 15, 0.1);
+  --border-primary-hover: rgba(7, 0, 15, 0.4);
+  --background-neutral: rgba(2, 22, 45, 0.05);
+  --text-primary: #07000f;
+  --text-tabitem: rgba(7, 0, 15, 0.4);
+  --bg-accent: #0067fe;
+}
+
+:global(.hidden) {
+  display: none;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+:global(.body__accent) {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+}
+
+:global(.button-label) {
+  cursor: pointer;
+  /* Caption */
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 19.6px */
+  letter-spacing: -0.14px;
+}

@@ -1,0 +1,23 @@
+.dropDownButton__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.DropDownButton {
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 14px 65px 14px 16px;
+  border: 1px solid var(--border-primary);
+  background-color: var(--background-neutral);
+}
+
+.DropDownButton:hover {
+  border: 1px solid var(--border-primary-hover);
+}
+
+.DropDownButton__container {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+}

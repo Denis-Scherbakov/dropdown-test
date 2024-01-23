@@ -1,0 +1,6 @@
+.form__wrapper {
+  position: relative;
+  border-radius: 12px;
+  border: 1px solid var(--border-primary);
+  overflow: hidden;
+}
